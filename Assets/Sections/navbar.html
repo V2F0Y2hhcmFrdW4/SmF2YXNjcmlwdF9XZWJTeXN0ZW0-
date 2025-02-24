@@ -1,0 +1,155 @@
+<div class="bg-light container-lg border" style="border-radius: 15px;">
+    <button class="btn btn-transparent text-main d-block d-lg-block d-xl-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-duotone fa-solid fa-bars" style="font-size: 25px;"></i>
+    </button>
+    <a class="navbar-brand d-none d-lg-none d-xl-block" href="./index.html"><a class="text-theme my-2" href="./index.html"></i>&nbsp;&nbsp;My Profile</a></a>
+    <a class="navbar-brand pt-2 pb-2" style="height: 65px;"></a>
+    <div class="offcanvas offcanvas-start " style="max-width: 90%; box-shadow: 0 0 0 0 transparent !important;" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto align-items-center mb-2 mb-lg-0">
+
+                <li class="nav-item d-block d-lg-block d-xl-none mb-3">
+                    <a href="./index.html"><img src="./Assets/Images/watcharakun.jpg" height="55px" width="auto"></a>
+                </li>
+                <li class="nav-item d-block d-lg-block d-xl-none">
+                    <div class="row justify-content-center">
+                        <div class="d-flex mb-0 px-5">
+                            <hr class="my-auto mb-0 flex-grow-1">
+                            <h5 class="text-theme px-4 mt-0 mb-0">เมนู</h5>
+                            <hr class="my-auto mb-0 flex-grow-1">
+                        </div>
+                        <a class="text-theme my-2" href="./index.html"><i class="fa-duotone fa-solid fa-house"></i>&nbsp;&nbsp;หน้าหลัก</a>
+                        <a class="text-theme my-2" href="https://www.facebook.com/profile.php?id=100077368576192&sk=about_overview"><i class="fa-duotone fa-solid fa-headset"></i>&nbsp;&nbsp;ติดต่อเรา</a>
+
+
+                        <div class="d-flex mb-0 px-5 mt-3">
+                            <hr class="my-auto mb-0 flex-grow-1">
+                            <h5 class="text-theme px-4 mt-0 mb-0">General</h5>
+                            <hr class="my-auto mb-0 flex-grow-1">
+                        </div>
+                        <a class="text-theme my-2" href="./System1.html"><i class="fa-duotone fa-solid fa-arrow-right-to-bracket"></i>&nbsp;&nbsp;System1</a>
+                        <a class="text-theme my-2" href="./System2.html"><i class="fa-duotone fa-solid fa-square-plus"></i>&nbsp;&nbsp;System2</a>
+                    </div>
+                </li>
+
+                <a class="d-none d-lg-none d-xl-block ms-lg-3 nav-v1 " href="./index.html">
+                    <i class="fa-duotone fa-solid fa-house"></i>&nbsp;หน้าหลัก </a>
+                <a class="d-none d-lg-none d-xl-block ms-lg-3 nav-v1 " href="https://www.facebook.com/profile.php?id=100077368576192&sk=about_overview">
+                    <i class="fa-duotone fa-solid fa-headset"></i>&nbsp;ติดต่อเรา</a>
+
+                <a class="d-none d-lg-none d-xl-block ms-lg-3 btn btn-main py-1 px-2" href="./System1.html">System1</a>
+                <a class="d-none d-lg-none d-xl-block ms-lg-2 btn btn-secondary py-1 px-2" href="./System2.html">System2</a>
+            </ul>
+        </div>
+    </div>
+</div>
+<style>
+    :root {
+        --color-main: #65aa46;
+        --color-main-opa-75: #65aa4675;
+        --color-main-opa-50: #65aa4650;
+        --color-main-opa-25: #65aa4625;
+        --color-main-opa-15: #65aa4615;
+
+        --color-button: #62ac3a;
+        --color-button-opa-75: #62ac3a75;
+        --color-button-opa-50: #62ac3a50;
+        --color-button-opa-25: #62ac3a25;
+        --color-button-opa-15: #62ac3a15;
+
+        --color-text: #63ab3c;
+        --color-text-opa-85: #63ab3c85;
+        --color-text-opa-75: #63ab3c75;
+        --color-text-opa-50: #63ab3c50;
+        --color-text-opa-25: #63ab3c25;
+        --color-text-opa-15: #63ab3c15;
+
+        --color-border: #dee2e6;
+        --color-bg-theme: #fff;
+        --color-text-theme: #0009;
+        --color-text-theme-opa-25: #6c757d20;
+        --color-text-theme-opa-50: #6c757d50;
+        --color-text-theme-opa-75: #6c757d75;
+        --color-text-theme-opa-85: #6c757d85;
+    }
+
+    .border {
+        border: 1px solid var(--color-border) !important;
+    }
+
+    *:not(i) {
+        font-family: 'Kanit', sans-serif;
+        font-weight: normal !important;
+    }
+
+    body {
+        background-color: #ededed;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        overflow-x: hidden;
+    }
+
+    .widget-icon {
+        color: var(--color-main);
+        font-size: 24px;
+        background-color: #65aa4620;
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 3px;
+        display: inline-block
+    }
+
+    .text-theme,
+    .text-theme i {
+        color: var(--color-text-theme) !important;
+    }
+
+    .image-size-tag {
+        position: relative;
+        width: max-content;
+        height: fit-content;
+        top: -3px;
+        padding-left: 1vh;
+        padding-right: 1vh;
+        padding-top: 0.3vh;
+        padding-bottom: 0.3vh;
+        border-radius: 90vh;
+        font-size: 11px;
+        line-height: 0.5vh;
+        font-weight: 500 !important;
+        background-color: var(--color-main-opa-25);
+        color: var(--color-main);
+        border: 1.5px solid var(--color-main);
+    }
+
+    .nav-search {
+        background-color: transparent;
+        display: block;
+        text-decoration: none;
+        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    }
+
+    .input-blur {
+        filter: blur(3px);
+        -webkit-filter: blur(3px);
+    }
+
+    .input-blur:hover,
+    .input-blur:active,
+    .input-blur:focus {
+        filter: blur(0px);
+        -webkit-filter: blur(0px);
+    }
+
+    table:not(.not-td-hover) tbody tr:nth-of-type(odd) {
+        background-color: rgba(101, 170, 70, 0.02) !important;
+    }
+
+    table:not(.not-td-hover) tr:hover td {
+        background-color: rgba(101, 170, 70, 0.05) !important;
+    }
+</style>
